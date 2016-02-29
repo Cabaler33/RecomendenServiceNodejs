@@ -1,0 +1,25 @@
+create table users(
+
+nickname varchar(20),
+pass varchar(20),
+email varchar(20),
+last_activity timestamp,
+registration_date timestamp,
+gender  boolean,
+birthday_date date,
+first_name varchar(20),
+last_name varchar(20)
+)
+
+
+
+create table movie (
+title varchar(256),
+director varchar(40),
+country varchar(30),
+pub_year integer,
+rank real,
+duration real,
+category varchar(100),
+poster text
+);
